@@ -1,0 +1,105 @@
+msgid "Settings"
+msgstr "Ustawienia"
+
+msgid "Security Options"
+msgstr "Opcje zabezpieczeń"
+
+msgid "Security Options:"
+msgstr "Opcje zabezpieczeń:"
+
+msgid "Upgrade to NETSENSAI-SHIELD PRO for enhanced protection and advanced features."
+msgstr "Uaktualnij do NETSENSAI-SHIELD PRO, aby zyskać lepszą ochronę i zaawansowane funkcje."
+
+msgid "Get yours now at:"
+msgstr "Zdobądź swoją wersję już teraz na:"
+
+msgid "NETSENSAI Shield is a security plugin designed to enhance WordPress site protection by offering essential security features based on best practice principles."
+msgstr "NETSENSAI Shield to wtyczka zabezpieczająca, zaprojektowana w celu zwiększenia ochrony strony WordPress, oferująca najważniejsze funkcje bezpieczeństwa zgodnie z zasadą BEST PRACTICE."
+
+
+msgid "Level 1: Basic Security"
+msgstr "Poziom 1: Zabezpieczenia Podstawowe"
+
+msgid "Level 2: Intermediate Security"
+msgstr "Poziom 2: Zabezpieczenia Średnie"
+
+msgid "Level 3: Advanced Security"
+msgstr "Poziom 3: Zabezpieczenia Zaawansowane"
+
+msgid "Disable WP API JSON"
+msgstr "Wyłącz WP API JSON"
+
+msgid "Disabling WP API JSON can protect your site from unauthorized access to sensitive data through the API. If left enabled, hackers may exploit WP API JSON to gather information about your site’s structure or perform enumeration attacks on users, which can lead to brute-force attacks."
+msgstr "Wyłączenie WP API JSON może zabezpieczyć Twoją stronę przed nieautoryzowanym dostępem do wrażliwych danych poprzez API. Jeśli pozostanie włączone, hakerzy mogą wykorzystać WP API JSON do zbierania informacji o strukturze Twojej strony lub przeprowadzenia ataków enumeracyjnych na użytkowników, co może prowadzić do ataków typu brute-force."
+
+msgid "Disable XML-RPC"
+msgstr "Wyłącz XML-RPC"
+
+msgid "Disabling XML-RPC blocks unauthorized remote access attempts, which can enhance security. If XML-RPC remains enabled, hackers might attempt to perform DDoS attacks by sending multiple requests or brute-force password attacks to gain control over your site."
+msgstr "Wyłączenie XML-RPC blokuje nieautoryzowane próby zdalnego dostępu, co może poprawić bezpieczeństwo. Jeśli XML-RPC pozostanie włączone, hakerzy mogą próbować przeprowadzać ataki DDoS, wysyłając liczne żądania, lub ataki brute-force w celu przejęcia kontroli nad Twoją stroną."
+
+msgid "Disable File Editor"
+msgstr "Wyłącz edytor plików"
+
+msgid "Disabling the file editor in the WP dashboard prevents unauthorized or accidental code changes. If left enabled, attackers who gain access to your admin panel could inject malicious code into your theme or plugin files, leading to a defacement of the site or the deployment of malware."
+msgstr "Wyłączenie edytora plików w panelu WP zabezpiecza przed nieautoryzowanymi lub przypadkowymi zmianami w kodzie. Jeśli pozostanie włączony, atakujący, którzy uzyskają dostęp do Twojego panelu administracyjnego, mogą wstrzyknąć złośliwy kod do plików motywu lub wtyczki, co może doprowadzić do oszpecenia strony lub wdrożenia złośliwego oprogramowania."
+
+msgid "Disable WordPress Application Passwords"
+msgstr "Wyłącz hasła aplikacji WordPress"
+
+msgid "Disabling application passwords secures against creating unauthorized accesses to your site’s API. If left enabled, hackers may exploit application passwords to gain persistent access to your site, enabling them to execute unauthorized API requests or even escalate their privileges."
+msgstr "Wyłączenie haseł aplikacji zabezpiecza przed tworzeniem nieautoryzowanego dostępu do API Twojej strony. Jeśli pozostaną włączone, hakerzy mogą wykorzystać hasła aplikacji, aby uzyskać trwały dostęp do Twojej strony, co umożliwi im wykonywanie nieautoryzowanych żądań do API lub nawet eskalację uprawnień."
+
+msgid "Apply Security Headers"
+msgstr "Zastosuj nagłówki bezpieczeństwa"
+
+msgid "Applying security headers can protect your site from XSS attacks and other threats. Without them, your site could be vulnerable to cross-site scripting (XSS) attacks or clickjacking, allowing attackers to steal sensitive data or trick users into executing malicious actions."
+msgstr "Zastosowanie nagłówków bezpieczeństwa może chronić Twoją stronę przed atakami typu XSS i innymi zagrożeniami. Bez nich Twoja strona może być podatna na ataki typu cross-site scripting (XSS) lub clickjacking, co umożliwi atakującym kradzież wrażliwych danych lub nakłonienie użytkowników do wykonania złośliwych działań."
+
+msgid "Use ChatGPT for Unknown Headers"
+msgstr "Użyj ChatGPT do nieznanych nagłówków"
+
+msgid "Enabling this option allows automatic analysis of less known headers using ChatGPT. If not enabled, potential security misconfigurations may remain undetected, leaving your site vulnerable to exploits such as header injection attacks or insufficient Content Security Policy (CSP) settings, which can lead to data breaches or XSS."
+msgstr "Włączenie tej opcji umożliwia automatyczną analizę mniej znanych nagłówków przy użyciu ChatGPT. Jeśli pozostanie wyłączona, potencjalne błędy w konfiguracji zabezpieczeń mogą pozostać niezauważone, co narazi Twoją stronę na ataki, takie jak ataki typu header injection lub niewystarczające ustawienia Content Security Policy (CSP), które mogą prowadzić do naruszenia danych lub ataków XSS."
+
+msgid "Disable Directory Indexing"
+msgstr "Wyłącz Indeksowanie Katalogów"
+
+msgid "Directory indexing allows attackers to list and access files in directories that lack an index file, exposing sensitive files and configurations. If directory indexing is not disabled, attackers can execute Directory Traversal attacks, gaining access to configuration files, logs, or even databases."
+msgstr "Indeksowanie katalogów pozwala atakującym na wyświetlanie i dostęp do plików w katalogach, które nie posiadają pliku indeksowego, co może prowadzić do ujawnienia wrażliwych plików i konfiguracji. Jeśli indeksowanie katalogów nie zostanie wyłączone, atakujący mogą przeprowadzić ataki typu Directory Traversal, uzyskując dostęp do plików konfiguracyjnych, logów, a nawet baz danych."
+
+msgid "Change Login URL"
+msgstr "Zmień URL logowania"
+
+msgid "Changing the login URL helps protect your site from brute-force attacks aimed at the default wp-login.php endpoint. If the default URL remains unchanged, attackers could easily target it to attempt password cracking or credential stuffing attacks."
+msgstr "Zmiana URL logowania pomaga chronić Twoją stronę przed atakami brute-force skierowanymi na domyślny punkt końcowy wp-login.php. Jeśli domyślny URL pozostanie niezmieniony, atakujący mogą łatwo go namierzyć, aby przeprowadzić ataki mające na celu złamanie haseł lub wykorzystanie wycieku danych do logowania."
+
+msgid "Disable Default Admin"
+msgstr "Wyłącz domyślny login Admina"
+
+msgid "The default "admin" username is a prime target for attackers attempting to breach your site. By changing this, you make it significantly harder for attackers to exploit common login details. If you leave the default admin username active, your site is vulnerable to Brute Force attacks, where attackers try thousands of password combinations against a known admin login."
+msgstr "Domyślna nazwa użytkownika „admin” jest głównym celem atakujących próbujących włamać się do Twojej witryny. Zmieniając ją, znacznie utrudniasz atakującym wykorzystanie powszechnych danych logowania. Jeśli pozostawisz domyślną nazwę użytkownika admin aktywną, Twoja witryna będzie podatna na ataki typu Brute Force, w których atakujący próbują tysięcy kombinacji haseł przeciwko znanemu loginowi administratora."
+
+msgid "Enable HSTS"
+msgstr "Włącz HSTS"
+
+msgid "HTTP Strict Transport Security (HSTS) enforces HTTPS, ensuring that all communication between the browser and the server is encrypted. This is critical for protecting sensitive user data and preventing man-in-the-middle attacks."
+msgstr "HTTP Strict Transport Security (HSTS) wymusza protokół HTTPS, zapewniając szyfrowaną komunikację między przeglądarką a serwerem. Jest to krytyczne dla ochrony poufnych danych użytkownika i zapobiegania atakom typu man-in-the-middle."
+
+msgid "License Key"
+msgstr "Klucz licencji"
+
+msgid "Disable Directory Indexing (PRO)"
+msgstr "Wyłącz Indeksowanie Katalogów (PRO)"
+
+msgid "Enable HSTS (PRO)"
+msgstr "Włącz HSTS (PRO)"
+
+msgid "Apply Security Headers (PRO)"
+msgstr "Zastosuj nagłówki bezpieczeństwa (PRO)"
+
+msgid "Use ChatGPT for Unknown Headers (PRO)"
+msgstr "Użyj ChatGPT do nieznanych nagłówków (PRO)"
+
+msgid "Save changes"
+msgstr "Zapisz zmiany"

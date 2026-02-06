@@ -1,0 +1,199 @@
+/* Ukrywanie pola tekstowego domyślnie */
+#admin_login_field {
+  display: none;
+  /* Usunięto margin-left */
+}
+
+/* Suwak stylowania */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: gray;
+  transition: background-color 0.4s, transform 0.4s;
+  border-radius: 15px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: transform 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #E6DB00;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Tooltip stylizacja */
+.tooltip {
+  display: none;
+  background-color: #E6DB00;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 10;
+  font-size: 12px;
+  width: 250px;
+  left: 70px;
+  top: 5px;
+  font-weight: bold;
+}
+
+/* Tooltip pojawia się przy najechaniu na suwak */
+.switch:hover + .tooltip {
+  display: block;
+}
+
+/* Kontenery dla suwaka i pól tekstowych */
+.change-url-container,
+.disable-admin-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Odstęp między przełącznikiem a polem tekstowym */
+  position: relative; /* Kluczowe dla pozycjonowania tooltipa */
+}
+
+/* Ustawienie stałej szerokości dla pól tekstowych w kontenerach */
+.change-url-container input[type="text"],
+.disable-admin-container input[type="text"] {
+  width: 250px;
+}
+
+/* Pozycjonowanie tooltipów w tabelach */
+td label.switch {
+  position: relative;
+}
+
+td label.switch + .tooltip {
+  left: 70px;
+  top: 5px;
+}
+
+/* Sekcja ustawień wtyczki – kontener */
+#netsensai-shield-plugin {
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Nagłówek sekcji ustawień */
+#netsensai-shield-plugin h2 {
+  color: #E6DB00;
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+/* Nagłówki poziomów bezpieczeństwa */
+#netsensai-shield-plugin .level-header {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  background-color: #E6DB00;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+/* Stylizacja tabeli – nagłówki i komórki */
+#netsensai-shield-plugin .form-table th {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+#netsensai-shield-plugin .form-table td {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* Stała odległość między suwakiem a polem tekstowym */
+.change-url-container label.switch,
+.disable-admin-container label.switch {
+  margin-right: 20px;
+}
+
+/* Stylizacja przycisku "Zapisz zmiany" */
+#netsensai-shield-plugin #submit.button.button-primary {
+  background-color: #E6DB00;
+  border-color: #E6DB00;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#netsensai-shield-plugin #submit.button.button-primary:hover {
+  background-color: #c4b200;
+  border-color: #c4b200;
+  color: black;
+}
+/* Klasy dla popupu */
+.ns-popup-logo-container {
+  text-align: center;
+  margin-bottom: 5px; /* Zmniejszony odstęp między logo a tekstem */
+}
+
+.ns-popup-logo {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto 5px; /* Zmniejszony margines dolny */
+}
+
+.ns-popup-text {
+  color: #000;
+  font-size: 1.5em;  /* Powiększony rozmiar czcionki */
+  line-height: 1.5;
+  text-align: center;
+}
+
+.ns-popup-text p {
+  margin-bottom: 5px;
+}
+
+.ns-popup-button-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.ns-modal-ok-button {
+  background-color: #E6DB00;
+  border: none;
+  color: #000;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.ns-modal-ok-button:hover {
+  background-color: #c4b200;
+}
